@@ -1,0 +1,9 @@
+CREATE DATABASE tesis;
+
+USE tesis;
+
+CREATE TABLE analog_sensor (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sangre INT NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
