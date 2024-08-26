@@ -18,11 +18,11 @@ Este proyecto utiliza un ESP32 para capturar datos de un sensor MAX30102 y un se
 
 ## Archivos del Proyecto
 
-1. **`code_esp32.ino`**:
+1. **`Analog_Esp32.ino.ino`**:
    - Ubicación: `code_esp32.ino`
    - Descripción: Archivo de código para el ESP32. Debe ser cargado en el microcontrolador. Asegúrate de ajustar los datos necesarios en el archivo.
 
-2. **`post.php`**:
+2. **`post1.php`**:
    - Ubicación: Carpeta de XAMPP
    - Descripción: Script PHP que se encarga de la conexión con la base de datos y el envío de datos. Debe ser configurado para conectar con la base de datos y manejar las solicitudes HTTP desde el ESP32.
 
@@ -68,12 +68,12 @@ Este proyecto utiliza un ESP32 para capturar datos de un sensor MAX30102 y un se
 ## Instrucciones de Configuración
 
 1. **Configurar el ESP32**:
-   - Carga el archivo `code_esp32.ino` en el Arduino IDE y ajusta los parámetros según sea necesario.
+   - Carga el archivo `Analog_Esp32.ino.ino` en el Arduino IDE y ajusta los parámetros según sea necesario.
    - Conecta el ESP32 a tu computadora y carga el código.
 
 2. **Configurar XAMPP**:
    - Instala y configura XAMPP en tu máquina local.
-   - Coloca el archivo `post.php` en la carpeta `htdocs` de XAMPP.
+   - Coloca el archivo `post1.php` en la carpeta `htdocs` de XAMPP.
 
 3. **Configurar la Base de Datos**:
    - Importa el archivo `base_de_datos.sql` en tu base de datos MySQL utilizando phpMyAdmin o una herramienta similar.
