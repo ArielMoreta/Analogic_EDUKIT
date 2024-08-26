@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $pdo = Database::connect();
         try {
-            $sql = "INSERT INTO datos_oxi (sangre) VALUES (?)";
+            $sql = "INSERT INTO analog_sensor (sangre) VALUES (?)";
             $q = $pdo->prepare($sql);
             $q->execute([$sangre]);
 
